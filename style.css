@@ -1,0 +1,25 @@
+body{
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    color:#6b21a8;
+}
+
+#birthday{
+    display: block;
+    margin:1rem 42rem;
+    padding:1rem 2rem;
+    border: 1px solid #6b21a8;
+}
+#button{
+    margin:1rem 1rem;
+    padding:0.5rem 2rem;
+    color:white ;
+    background-color: #6b21a8;
+    border-radius: 0.5rem;
+}
+#output{
+    font-size: large;
+}
