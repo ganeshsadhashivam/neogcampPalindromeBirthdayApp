@@ -34,7 +34,9 @@ function clickHandler(){
 
         var [ctr,nextDate] = getNextPalindromeDate(date);
 
-        output.innerText =`The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year},you missed it by ${ctr} days ☹️`;
+        var [ctr1,prevDate] = getPreviousPalindromeDate(date);
+
+        output.innerText =`The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year},you missed it by ${ctr} days ☹️. And Previous palindrome date is ${prevDate.day}-${prevDate.month}-${prevDate.year},you missed it by ${ctr1} days ☹️` ;
 
         }
     }
